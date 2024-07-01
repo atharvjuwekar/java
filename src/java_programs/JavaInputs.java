@@ -11,6 +11,9 @@ public class JavaInputs {
 		float marks = input.nextFloat();
 		System.out.println("Entered value is : " + input.nextLine());
 		
+		
+		
+		
 	}
 
 }
