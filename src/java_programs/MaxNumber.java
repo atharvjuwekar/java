@@ -17,7 +17,7 @@ public class MaxNumber {
 			max = c;
 		}
 		
-		System.out.println("Max number is :" + max);
+		System.out.println("Max number is =" + max);
 		
 	}
 
