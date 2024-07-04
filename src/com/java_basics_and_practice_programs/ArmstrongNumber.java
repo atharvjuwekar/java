@@ -1,4 +1,4 @@
-package java_practice_programs;
+package com.java_basics_and_practice_programs;
 
 public class ArmstrongNumber {
 
