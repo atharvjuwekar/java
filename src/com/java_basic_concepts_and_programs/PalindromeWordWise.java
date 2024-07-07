@@ -1,5 +1,6 @@
 package com.java_basic_concepts_and_programs;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PalindromeWordWise {
@@ -8,7 +9,8 @@ public class PalindromeWordWise {
 		System.out.println("Enter a sentence:");
 		String str = in.nextLine();
 		in.close();
-		System.out.println("The given sentence reads the same forwards and backwards (word-wise): " + isWordPalindrome(str));
+		System.out.println(
+				"The given sentence reads the same forwards and backwards (word-wise): " + isWordPalindrome(str));
 	}
 
 	static boolean isWordPalindrome(String str) {
@@ -16,7 +18,7 @@ public class PalindromeWordWise {
 			return false;
 		}
 
-		String[] strArray = str.split("\\s+");  // Splitting by one or more spaces
+		String[] strArray = str.split("\\s+"); // Splitting by one or more spaces
 
 		int start = 0;
 		int end = strArray.length - 1;
