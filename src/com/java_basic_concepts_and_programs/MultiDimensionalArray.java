@@ -1,4 +1,4 @@
-package com.java_basics_and_practice_programs;
+package com.java_basic_concepts_and_programs;
 
 import java.util.Arrays;
 import java.util.Scanner;
