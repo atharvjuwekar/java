@@ -1,6 +1,6 @@
-package com.java.oops;
+package oops;
 
-public class JavaClass {
+public class JavaClassAndthisKeyword {
 	
 	public static void main(String[] args) {
 		
@@ -12,6 +12,12 @@ public class JavaClass {
 		System.out.println(atharvConstOverloaded.marks);
 		
 		atharv.greeting();
+		
+		Student one = new Student();
+		Student two = one;
+		
+		one.name = "Testname";
+		System.out.println(one.name + two.name);
 	}
 	
 }
