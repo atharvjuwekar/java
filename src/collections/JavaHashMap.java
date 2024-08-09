@@ -60,6 +60,9 @@ public class JavaHashMap {
 			System.out.println(itr.next());
 		}
 		
+		myMap.clear();
+		myMap.isEmpty();
+		
 		
 	}
 
