@@ -1,4 +1,4 @@
-package com.java.oops;
+package oops;
 
 public class JavaClassAndthisKeyword {
 	

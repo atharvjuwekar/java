@@ -1,4 +1,4 @@
-package com.java.oops;
+package oops;
 
 public class WrapperClass {
 	public static void main(String[] args) {
